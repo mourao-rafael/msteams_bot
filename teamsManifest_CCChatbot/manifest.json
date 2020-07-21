@@ -1,0 +1,91 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.7",
+    "version": "1.0.0",
+    "showLoadingIndicator": true,
+    "id": "782ec936-98f2-4acd-a6d0-ba1b9cf62bbf",
+    "packageName": "com.pucminas.cc.msteamsbot",
+    "developer": {
+        "name": "Rafael Mourão",
+        "websiteUrl": "https://github.com/mourao-rafael",
+        "privacyUrl": "https://github.com/mourao-rafael/msteams_bot/blob/master/Termos%20de%20Privacidade",
+        "termsOfUseUrl": "https://github.com/mourao-rafael/msteams_bot/blob/master/Termos%20de%20Uso"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "CC Chatbot",
+        "full": "Chatbot - CC PUC Minas"
+    },
+    "description": {
+        "short": "Chatbot para os alunos de Ciência da Computação (PUC Minas) no Microsoft Teams.",
+        "full": "Chatbot para a plataforma Microsoft Teams, desenvolvido para os alunos do curso de Ciência da Computação da PUC Minas.\n\nDesenvolvido por Rafael Mourão, com o auxílio do docente Felipe Domingos."
+    },
+    "accentColor": "#F9F9FA",
+    "bots": [
+        {
+            "botId": "6d1a52b8-d421-4f8c-93ec-a73ad9cb9170",
+            "scopes": [
+                "personal",
+                "team",
+                "groupchat"
+            ],
+            "commandLists": [
+                {
+                    "scopes": [
+                        "personal"
+                    ],
+                    "commands": [
+                        {
+                            "title": "Olá!",
+                            "description": "Diga olá para o nosso assistente virtual."
+                        },
+                        {
+                            "title": "Atividades para esta semana?",
+                            "description": "Lista as atividades para esta semana"
+                        }
+                    ]
+                },
+                {
+                    "scopes": [
+                        "team"
+                    ],
+                    "commands": [
+                        {
+                            "title": "Olá!",
+                            "description": "Diga olá para o nosso assistente virtual."
+                        },
+                        {
+                            "title": "Atividades para esta semana?",
+                            "description": "Lista as atividades para esta semana"
+                        }
+                    ]
+                },
+                {
+                    "scopes": [
+                        "groupchat"
+                    ],
+                    "commands": [
+                        {
+                            "title": "Olá!",
+                            "description": "Diga olá para o nosso assistente virtual."
+                        },
+                        {
+                            "title": "Atividades para esta semana?",
+                            "description": "Lista as atividades para esta semana"
+                        }
+                    ]
+                }
+            ],
+            "supportsFiles": true,
+            "isNotificationOnly": false
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": []
+}
