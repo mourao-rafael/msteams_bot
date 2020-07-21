@@ -26,11 +26,9 @@
     "accentColor": "#F9F9FA",
     "bots": [
         {
-            "botId": "6d1a52b8-d421-4f8c-93ec-a73ad9cb9170",
+            "botId": "782ec936-98f2-4acd-a6d0-ba1b9cf62bbf",
             "scopes": [
-                "personal",
-                "team",
-                "groupchat"
+                "personal"
             ],
             "commandLists": [
                 {
@@ -39,41 +37,7 @@
                     ],
                     "commands": [
                         {
-                            "title": "Olá!",
-                            "description": "Diga olá para o nosso assistente virtual."
-                        },
-                        {
-                            "title": "Atividades para esta semana?",
-                            "description": "Lista as atividades para esta semana"
-                        }
-                    ]
-                },
-                {
-                    "scopes": [
-                        "team"
-                    ],
-                    "commands": [
-                        {
-                            "title": "Olá!",
-                            "description": "Diga olá para o nosso assistente virtual."
-                        },
-                        {
-                            "title": "Atividades para esta semana?",
-                            "description": "Lista as atividades para esta semana"
-                        }
-                    ]
-                },
-                {
-                    "scopes": [
-                        "groupchat"
-                    ],
-                    "commands": [
-                        {
-                            "title": "Olá!",
-                            "description": "Diga olá para o nosso assistente virtual."
-                        },
-                        {
-                            "title": "Atividades para esta semana?",
+                            "title": "Atividades da semana?",
                             "description": "Lista as atividades para esta semana"
                         }
                     ]
